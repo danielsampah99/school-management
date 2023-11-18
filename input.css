@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, ::before, ::after {
+	@apply box-border p-0 m-0
+}
+
+#sideImage {
+	background-image: url("assets/school logo no background.png");
+}
