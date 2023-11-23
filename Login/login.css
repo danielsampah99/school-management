@@ -1,0 +1,169 @@
+/* App.css */
+
+.app {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+}
+
+.left-container{
+		flex: 1;
+			height: 100vh;
+			background-color: lightblue;
+			border: none;
+			overflow: hidden;
+			position: relative;
+}
+.left-container .left-image{
+	position: absolute;
+	left: 25%;
+	top: 25%;
+}
+
+.left-container .logo-container {
+	margin: 10px;
+	display: flex;
+}
+.left-container .logo-container .home{
+	margin-top: 20px;
+	height: 10px;
+}
+.left-container .logo-container .home h1{
+  font-size: 25px;
+	font-family: "Sofia Pro", "serif";
+	padding-left: 10px;
+	font-weight: 600;
+	top: 20px;
+  text-decoration: none;
+}
+.right-container {
+	flex: 1;
+	height: 100vh;
+	background-color: white;
+	border: none;
+		overflow: hidden;
+			position: relative;
+
+}
+
+.right-container .right-image{
+	position: absolute;
+		right: 10%;
+		top: 12%;
+}
+
+.center-container {
+	position: absolute;
+	background-color: white;
+	height: 70%;
+	width: 30%;
+	border-radius: 40px;
+	padding: 30px;
+	border: 1px solid white;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	margin: auto;
+	
+}
+.center-container .text{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.center-container h3{
+	height: 0;
+font-size: 20px;
+font-family: "Sofia Pro","serif";
+font-weight: lighter;
+}
+.center-container h1{
+	height: 20px;
+	font-size: 40px;
+	font-family: "Sofia Pro", "serif";
+}
+.center-container form {
+font-family: "Sofia Pro", "serif";
+}
+.center-container form h3{
+	font-size: 16px;
+	font-weight: 600;
+}
+.center-container form input{
+	margin-top: 5%;
+	height: 40px;
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 9px;
+}
+.center-container form button{
+	margin-top: 5%;
+  height: 35px;	
+	width: 100%;
+	border: none;
+	border-radius: 9px;
+	background-color: lightblue;
+	font-size: 16px;
+	font-weight: 700;
+	color: white;
+	cursor: pointer;
+}
+/* Media query for tablet devices */
+@media only screen and (max-width: 991px) {
+.app {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		background-color: lightblue;
+	}
+	.left-container,
+	.right-container {
+			display: none;
+		/* Decrease the size of the separated containers for tablets */
+	}
+				.left-container .logo-container {
+					display: none;
+				}
+	  .center-container {
+	  	width: 70%;
+	  	display: block;
+	  	/* Show only the center container on tablets */
+	  }
+
+}
+
+/* Media query for mobile devices */
+@media only screen and (max-width: 40em) {
+	.app {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			background-color: lightblue;
+		}
+
+	.left-container,
+	.right-container {
+		display: none;
+		/* Hide the separated containers on mobile devices */
+	}
+.left-container .logo-container {
+	display: none;
+}
+	.center-container {
+		width: 70%;
+		display: block;
+		/* Show only the center container on mobile devices */
+	}
+}

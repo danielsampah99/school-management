@@ -1,0 +1,354 @@
+
+
+.landing-page-web {
+	background-color: rgba(255, 255, 255, 1);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+
+}
+
+.landing-page-web .div {
+	background: linear-gradient(180deg, rgba(139.08, 184.38, 198.69, 0.97) 0%, rgba(130.21, 170.14, 182.75, 0) 100%);
+	height: 667px;
+	overflow: hidden;
+	position: relative;
+	width: 100vw;
+}
+
+.landing-page-web .overlap {
+	background-color: #ffffffbf;
+	height: 97px;
+	left: 12px;
+	position: absolute;
+	top: 570px;
+	width: 1164px;
+}
+
+.landing-page-web .footer {
+	height: 31px;
+	left: 49px;
+	position: relative;
+	top: 59px;
+	width: 1066px;
+}
+
+.landing-page-web .element-HNG-grammar {
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	left: 0;
+	letter-spacing: 0;
+	line-height: normal;
+	position: absolute;
+	top: 0;
+	width: 352px;
+}
+
+.landing-page-web .text-wrapper-2 {
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 100;
+	left: 986px;
+	letter-spacing: 0;
+	line-height: normal;
+	position: absolute;
+	top: 1px;
+	width: 76px;
+}
+
+.landing-page-web .overlap-group {
+	background-image: url(./images/back.png);
+	background-position: 50% 50%;
+	background-size: contain;
+	height: 0;
+	left: 0;
+	position: absolute;
+	top: 51px;
+	width: 100vw;
+}
+
+.landing-page-web .main-page-texts {
+	height: 191px;
+	left: 64px;
+	position: relative;
+	top: 120px;
+	width: 493px;
+}
+
+.landing-page-web .p {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	left: 0;
+	letter-spacing: 0;
+	line-height: normal;
+	position: absolute;
+	top: 167px;
+	width: 448px;
+}
+
+.landing-page-web .education-is-the-key {
+	color: #ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	left: 0;
+	letter-spacing: 1px;
+	line-height: 57px;
+	position: absolute;
+	top: 0;
+	width: 489px;
+}
+
+.landing-page-web span {
+	font-weight: 900;
+}
+
+.landing-page-web .text-wrapper-3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+}
+
+.landing-page-web .overlap-group-2 {
+	height: 38px;
+	left: 970px;
+	position: absolute;
+	top: 5px;
+	width: 160px;
+}
+
+.landing-page-web button {
+	background-size: 100% 100%;
+	height: 38px;
+	left: 300px;
+	position: absolute;
+	top: 0;
+	width: 160px;
+	border-radius: 20px;
+	border: none;
+	font-weight: bold;
+}
+
+
+.landing-page-web .text-wrapper-5 {
+	color: #000000b2;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	left: 64px;
+	letter-spacing: 0;
+	line-height: normal;
+	position: absolute;
+	top: 11px;
+	width: 313px;
+}
+
+.landing-page-web .footer-2 {
+	height: 45px;
+	left: 76px;
+	position: absolute;
+	top: 497px;
+	width: 1021px;
+}
+
+.landing-page-web .element-birrel-avenue-sabo {
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	left: 0;
+	letter-spacing: 0;
+	line-height: normal;
+	position: absolute;
+	top: 0;
+	width: 133px;
+}
+
+.landing-page-web .hello-hng-tech {
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	left: 882px;
+	letter-spacing: 0;
+	line-height: normal;
+	position: absolute;
+	top: 10px;
+	width: 135px;
+}
+
+.landing-page-web .tvet {
+	height: 38px;
+	left: 12px;
+	object-fit: cover;
+	position: absolute;
+	top: 5px;
+	width: 37px;
+}
+
+@media only screen and (max-width: 40em) {
+	.landing-page-web{
+		background-color: #8bb8c7;
+	}
+	.landing-page-web .div {
+		background-color: #8bb8c7;
+		height: 1409px;
+		position: relative;
+		width: 694px;
+	}
+	.landing-page-web .overlap {
+		background-color: #ffffff;
+		height: 69px;
+		left: 28px;
+		position: absolute;
+		top: 1334px;
+		width: 666px;
+	}
+	.landing-page-web .footer {
+		height: 30px;
+		left: 14px;
+		position: relative;
+		top: 27px;
+		width: 634px;
+	}
+	.landing-page-web .element-HNG-grammar {
+		color: #000000;
+		font-family: "Roboto", sans-serif;
+		font-size: 12px;
+		font-weight: 400;
+		left: 0;
+		letter-spacing: 0;
+		line-height: normal;
+		position: absolute;
+		top: 0;
+		width: 209px;
+	}
+	.landing-page-web .text-wrapper-2 {
+		color: #000000;
+		font-family: "Roboto", sans-serif;
+		font-size: 12px;
+		font-weight: 900;
+		left: 38%;
+		letter-spacing: 0;
+		line-height: normal;
+		position: absolute;
+		top: 15px;
+		width: 87px;
+	}
+	.landing-page-web .text-wrapper-5 {
+		color: #000000b2;
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		font-weight: 700;
+		left: 50px;
+		letter-spacing: 0;
+		line-height: normal;
+		position: absolute;
+		top: 11px;
+		width: 313px;
+	}
+	.landing-page-web .overlap-group {
+		background-image: url(./images/back.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 82%;
+		width: 100vw;
+	}
+	.landing-page-web .footer-2 {
+		background-color: #8bb8c7;
+		height: 10%;
+		left: 28px;
+		position: absolute;
+		top: 85.5%;
+		width: 1021px;
+
+	}
+	.landing-page-web .element-birrel-avenue-sabo {
+		 color: #000000;
+		 font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+		font-weight: 500;
+		 left: 0;
+		 letter-spacing: 0;
+		 line-height: normal;
+		 position: absolute;
+		 top: 0;
+		 width: 170px;
+	 }
+	.landing-page-web .hello-hng-tech {
+		color: #000000;
+		font-family: 'Roboto', sans-serif;
+		font-size: 20px;
+		font-weight: 500;
+		left: 20.5%;
+		letter-spacing: 0;
+		line-height: normal;
+		position: absolute;
+		top: 10px;
+		width: 150px;
+	}
+	.landing-page-web .main-page-texts {
+		height: 191px;
+		left: 10px;
+		position: relative;
+		top: 120px;
+		width: 490px;
+	}
+	.landing-page-web .education-is-the-key {
+		color: #ffffff;
+		font-family: 'Roboto', sans-serif;
+		font-size: 40px;
+		font-weight: 400;
+		left: 0;
+		letter-spacing: 1px;
+		line-height: 60px;
+		position: absolute;
+		top: 0;
+		width: 489px;
+	}
+	.landing-page-web .p {
+		color: #ffffff;
+		font-family: 'Roboto', sans-serif;
+		font-size: 18px;
+		font-weight: 100;
+		left: 0;
+		letter-spacing: 0;
+		line-height: normal;
+		position: absolute;
+		top: 167px;
+		width: 448px;
+	}
+
+	.landing-page-web .overlap-group-2 {
+		height: 38px;
+		left:10px;
+		position: absolute;
+		top: 5px;
+		width: 100px;
+	}
+	.landing-page-web button {
+		height: 38px;
+		left: 270px;
+		position: absolute;
+		top: 0;
+		width: 100px;
+		border-radius: 20px;
+		border: none;
+		font-weight:  bold;
+	}
+}
+@media only screen and (min-width: 48em) {
+	.landing-page-web .overlap-group {
+		background-image: url(./images/back.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 82%;
+		width: 100vw;
+	}
+}
